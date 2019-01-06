@@ -18,6 +18,10 @@
     padding: 15px 0 !important;
 }
 
+.service_title {
+    display: none;
+}
+
 @media (max-width: 1260px) {
     .tab-icon img {
         max-width: 50px;
@@ -37,13 +41,34 @@
 }
 
 @media (max-width: 991px) {
+    .ft-tabs {
+        display: none;
+    }
 
+    .tab-pic {
+        float: left;
+        margin-right: 25px;
+        width:50px;
+    }
+
+    .tab-tit {
+        float: left;
+        width: 80%;
+        line-height: 50px;
+        padding: 0;
+    }
+
+    .service_title {
+        display: block;
+        padding: 10px;
+        margin: auto;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
 }
 
 @media (max-width: 669px) {
-
-}
-
-@media (max-width: 600px) {
-
+    .t-wrapper {
+        height: 500px;
+    }
 }
