@@ -3675,7 +3675,7 @@ fieldset[disabled] .form-control:hover {
 
 .ft-tabs .tabs-list li a {
   display: block;
-  padding: 50px;
+  padding: 40px 20px;
   border-left: 10px solid rgba(17, 17, 17, 0);
 }
 
@@ -3717,7 +3717,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .ft-tabs .tab-content {
-  height: 647px;
+  height: 566px;
   background: #f4f4f4;
 }
 
@@ -3740,7 +3740,9 @@ fieldset[disabled] .form-control:hover {
 }
 
 .ft-tabs .tab-content .tab-content-image {
-  padding-top: 265px;
+    position: absolute;
+    bottom: -15px;
+    right: 15px;
 }
 
 /* ---- 9.9 Lists ---- */
@@ -4391,8 +4393,7 @@ fieldset[disabled] .form-control:hover {
 
 .testimonials-parallax .t-wrapper, .testimonials-dark .t-wrapper {
   position: relative;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 40px;
   width: 55%;
   margin: 0 auto;
   text-align: center;
@@ -4477,7 +4478,7 @@ fieldset[disabled] .form-control:hover {
 .testimonials-parallax .t-clients, .testimonials-dark .t-clients {
   display: block;
   list-style: none;
-  margin: 0 auto 100px auto;
+  margin: 0 auto 20px auto;
   padding: 0;
   width: 80%;
   text-align: center;
@@ -4486,8 +4487,6 @@ fieldset[disabled] .form-control:hover {
 
 .testimonials-parallax .t-clients li, .testimonials-dark .t-clients li {
   display: inline-block;
-  padding-left: 35px;
-  padding-right: 35px;
 }
 
 .testimonials-bg-2 {

@@ -5,3 +5,41 @@
 .navbar-trans-dark .navbar-nav .active > a {
     color: #fff !important;
 }
+
+.tab-icon img {
+    max-width: 60px;
+}
+
+.ft-tabs .tabs-list li a .tab-group {
+    font-size: 2vh;
+}
+
+@media (max-width: 1260px) {
+    .tab-icon img {
+        max-width: 50px;
+    }
+
+    .tab-info {
+        display: none;
+    }
+
+    .ft-tabs .tabs-list li a .tab-group {
+        font-size: 1.8vh;
+    }
+
+    .ft-tabs .tab-content {
+        height: 451px !important;
+    }
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 669px) {
+
+}
+
+@media (max-width: 600px) {
+
+}

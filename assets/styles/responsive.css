@@ -248,7 +248,7 @@
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 990px) {
   .ft-boxed-hover ul li {
     width: 50%;
   }
@@ -450,7 +450,6 @@
 @media (max-width: 1260px) {
   .team-3col .t-item,
   .team-4col .t-item {
-    width: 360px;
     margin: 0 auto;
   }
   .team-3col .t-item:hover,
@@ -470,7 +469,6 @@
   }
   .team-3col .t-item .t-image,
   .team-4col .t-item .t-image {
-    width: 360px;
     height: auto;
     overflow: visible;
   }
@@ -491,7 +489,6 @@
     border-bottom: 1px solid #ebebeb;
   }
   .t-join {
-    width: 360px;
     margin: 0 auto;
   }
   .freelancer-about .img-wrapper {
@@ -1047,76 +1044,4 @@
     display: none;
   }
 }
-
-/* ---- Shop (eCommerce) Layout ---- */
-@media (max-width: 1260px) {
-  .shop-product-card {
-    margin: 0 auto 50px auto;
-  }
-  .shop-layout-options .col-md-3 {
-    float: none !important;
-    text-align: right;
-  }
-  .checkout-coupon-form .col-lg-4 {
-    padding-right: 0;
-  }
-  .checkout-coupon-form .col-lg-4 .form-control {
-    margin-bottom: 30px;
-  }
-  .calc-shipping .calc-form .form-group {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .calc-shipping .calc-form .btn-totals {
-    clear: both;
-  }
-  .totals-group {
-    margin-top: 100px;
-    clear: both;
-  }
-  .totals-group .checkout-btn-wrapper {
-    padding-right: 30px;
-  }
-  .totals-group .checkout-btn-wrapper .checkout-btn {
-    left: 100%;
-    -webkit-transform: translateX(-100%);
-        -ms-transform: translateX(-100%);
-            transform: translateX(-100%);
-  }
-}
-
-@media (max-width: 992px) {
-  .shop-sidebar {
-    padding-left: 35px;
-    padding-right: 35px;
-  }
-  .shop-sidebar .cart-widget .cw-subtotal {
-    float: none !important;
-  }
-  .shop-sidebar .search-widget {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .shop-sidebar .tags-widget {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .prod_single_img_slider .slick-dots {
-    display: none !important;
-  }
-  .product-info {
-    margin-top: 50px;
-  }
-}
-
-@media (max-width: 770px) {
-  .checkout-coupon-form .btn {
-    display: block;
-    width: 100%;
-  }
-  .checkout-coupon-form .btn-ghost {
-    margin-bottom: 15px;
-  }
-}
-
 /*# sourceMappingURL=responsive.css.map */
