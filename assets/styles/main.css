@@ -2371,7 +2371,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .footer-contact .contact-info .footer-map {
-  height: 790px;
+  height: 650px;
   background: #ccc;
 }
 
@@ -2420,7 +2420,7 @@ fieldset[disabled] .form-control:hover {
 .footer-contact .contact-info address {
   position: absolute;
   margin-bottom: 0;
-  padding: 280px 100px 0 130px;
+  padding: 80px 100px 0 130px;
   top: 0;
   left: 0;
   width: 100%;
@@ -2434,7 +2434,7 @@ fieldset[disabled] .form-control:hover {
   list-style: none;
   padding: 0;
   margin: 0;
-  width: 50%;
+  width: 85%;
   float: left;
 }
 
