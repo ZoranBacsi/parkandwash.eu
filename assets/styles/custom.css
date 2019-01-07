@@ -71,4 +71,10 @@
     .t-wrapper {
         height: 500px;
     }
+    .hero-lead{
+        font-size: 2em !important;
+    }
+    .hero-subheading{
+        font-size: 1.5em !important;
+    }
 }
